@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    overflow-x: hidden
+}
+
+body {
+    overflow-x: hidden;
+    background-color: rgba(233, 232, 232, 0.774);
+}
+
+nav {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.973);
+    width: 720px;
+    left: 590px;
+    border-radius: 50px;
+}
+
+strong {
+    color: rgba(27, 27, 27, 0.705);   
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(27, 27, 27, 0.705);
+    margin: 100px;
+    padding: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.active {
+    color: blueviolet;
+}
+
+
+h1 {
+    position: relative;
+    left: 250px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.whoareu {
+    position: relative;
+    left: 840px;
+    bottom: 100px;
+}
+
+.whoareu p{
+    font-size: 25px;
+}
+
+.EN-RUS p {
+    position: relative;
+    left: 1360px;
+    bottom: 125px;
+    font-size: 20px;
+}
+
+.EN-RUS a {
+    text-decoration: none;
+    color: rgba(27, 27, 27, 0.705);
+    margin: 0px;
+}
+
+.EN-RUS a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.EN-RUS .active2 {
+    color: blueviolet;
+}
+
+.img {
+    position: relative;
+    width: 1000px;
+    left: 425px;
+    bottom: 75px;
+    border-radius: 200px;
+}
+
+h4 {
+    position: relative;
+    bottom: 75px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+img {
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.text1{
+    position: relative;
+    top: 130px;
+    right: 110px;
+}
+
+.text2{
+    position: relative;
+    top: 130px;
+    right: 118px;
+}
+
+.text3{
+    position: relative;
+    top: 130px;
+    right: 108px;
+}
+
+.text4{
+    position: relative;
+    top: 130px;
+    right: 99px;
+}
+
+.text5{
+    position: relative;
+    top: 130px;
+    right: 92px;
+}
+
+.text6{
+    position: relative;
+    top: 130px;
+    right: 70px;
+}
+
+.info {
+    text-align: center;
+    margin: 50px;
+}
+
+.examples {
+    text-align: center;
+}
+
+.photo1 {
+    margin:10px;
+}
+
+.photo2 {
+    margin: 10px;
+}
+
+.photo3 {
+    margin: 10px;
+}
+
+footer {
+    background-color: rgb(223, 252, 252);
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    left: 43%;
+}
+
+h5 {
+    text-align: center;
+    
+}
+
+h3 {
+    font: bold;
+}
+
+.social {
+    text-align: center;
+}
+
+.social a {
+    text-decoration: none;
+    color: rgba(27, 27, 27, 0.705);
+    margin: 100px;
+    padding: 20px;
+}
+
+.social a:hover {
+    text-decoration: underline;
+    color: black;
+}
